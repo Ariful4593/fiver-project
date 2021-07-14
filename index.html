@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiver-Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn reloader"><i class="fa fa-refresh"  aria-hidden="true"></i> </button>
+    <div class="main" id="isdi">
+     <div class="container  ">
+        <div class="row">
+            <div class="col-md-8">
+                
+                <img src="start.png" alt="">
+               <h1>Welcome to Imperial Capital's Online Account <br> Opening Application!</h1>
+               <button type="button" id="start" onclick="startMe()" class="btn btn-primary">Primary</button>
+               <p>press Enter ↵</p>
+            </div>
+        </div>
+     </div>
+  </div>
+<form action="" id="form1">
+ <label for="">1->  ...@gfgf</label>
+  <br>
+  <input id="email" onclick="myStyle()" type="text" placeholder="Type your answer here...">
+  <br>
+  Shift ⇧ + Enter ↵ to make a line break
+</form>
+<button class="btn btn-information" id="down" onclick="nextform()" style="overflow:hidden; float:right; margin-right:2em; margin-top:4em;"><i style='font-size:24px' class='fas'>&#xf107;</i></button>
+<button class="btn btn-information" id="up" onclick="previousform()" style="overflow:hidden; float:right; margin-top:4em;"><i style='font-size:24px' class='fas'>&#xf106;</i></button>
+
+
+<div class="container">
+    <div class="rows">
+        <div class="col-md-8">
+            <form action="" id="form2">
+                <label for="">2->...</label>
+                 <br>
+                 <div class="box">
+                     <p>Choice 1</p>
+                     <input id="check" type="checkbox">
+                 </div>
+                 </form>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="rows">
+        <div class="col-md-8">
+            <div class="par">
+                <p>
+                    <span style="margin-left: -35px;"> 3 -></span>
+                    <br>
+                    (a) Your valid identity document.szfsdfszdfzdf<br>
+                    (b) Your Taxpayer Identification Number (TIN).<br>
+                    (c) Proof of residence; a copy of utility bill or tenancy agreement.<br> 
+                    (d) A selfie while holding your ID/Passport next to your face.<br>
+                    (e) A specimen of your signature.<br>
+                    <br>
+                    <br>
+                    <span style="font-weight: bolder;">For your information, the opening of your account takes 72 working hours.</span><br>
+                    <br>
+                    Check the account category that you're interested in.
+                    <br>
+                    <br>
+                    <span style="font-size: 16px;">Choose as many as you like</span>
+                    
+                </p>
+               
+           
+            <form action="" id="form3">
+            <!-- <div class="box" onmousemove="show()" onmouseout="hide()">
+               <div id="key">key</div>
+                <div id="choise" class="choiseBox" >A</div>
+             Personal 
+            </div>--> 
+             <div class="container" id="choise1" onmousemove="show()" onmouseout="hide()" onclick="selectChoise('P')">
+               <div class="smallBox" id="sb1">A</div>
+                Personal
+             </div>
+             <br>
+             <div class="container" id="choise2" onmousemove="show1()" onmouseout="hide1()" onclick="selectChoise('B')">
+                <div class="smallBox2" id="sb2">B</div>
+                 Business
+              </div>
+              <div class="container" id="choise3" onmousemove="show2()" onmouseout="hide2()" onclick="selectChoise('O')">
+                <div class="smallBox2" id="sb3">C</div>
+                 Other
+                 <input type="text" name="" id="catagorey">
+              </div>
+              <button class="btn btn-info" id="dat" onclick="getChoise()">OK</button>
+            </form>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="rows">
+        <div class="col-md-8" >
+            <form id="form4">
+                <label>4 ->You can now select the account type you desire.</label>
+                <div class="container" id="choise4" onmousemove="show()" onmouseout="hide()" onclick="selectChoise('P')">
+                    <div class="smallBox" id="sb4">A</div>
+                     Personal
+                  </div>
+    
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="magic.js"></script>
+</body>
+</html>

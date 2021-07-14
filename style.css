@@ -1,0 +1,245 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+body{
+   
+    background:url(img2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.reloader{
+    float:right;
+    margin-top:-2em;
+    margin-right:2em;
+}
+.main{
+    visibility: hidden;
+    margin-top: 5em;
+}
+.main h1{
+    letter-spacing: .1em;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+}
+.btn-primary{
+    margin-top: 1.5em;
+    
+    padding: 20px 15px;
+    margin-left: 18em;
+    color:firebrick;
+    background-color: hotpink;
+    font-weight:1000;
+    font-size: 18px;
+}
+.main p{
+    color:white;
+    margin-left: 28em;
+    margin-top: -3em;   
+}
+#form1{
+    position:absolute;
+    top:35%;
+    left:25%;
+    transform:translate(-50%,-50%);
+    color:white;
+    visibility: hidden;
+}
+#form1 label{
+    color:white;
+    text-decoration-line: underline;
+    font-size:20px;
+}
+#form1 input{
+    background-color: transparent;
+    width:200%;
+    height:50px;
+    color:white;
+    border-top-color:transparent ;
+    border-right-color:transparent ;
+    border-left-color:transparent ;
+    font-size: xx-large;
+}
+#email:hover{
+    background-color: transparent;
+    border-top-color:transparent ;
+    border-right-color:transparent ;
+    border-left-color:transparent ;
+    overflow: hidden;
+    outline-color: transparent;
+}
+
+  #form2{
+    position:absolute;
+    margin-top: -15em;
+    left:25%;
+    transform:translate(-50%,-50%);
+    color:white;
+    visibility: hidden;
+  }
+  #form2 label{
+    color:white;
+    font-size:20px;
+    
+  }
+  #form2 .box{
+      margin-top: 1em;
+      margin-left: 2em;
+      width: 170px;
+      height: 40px;
+      border:1px solid white;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 22px;
+  }
+
+  #form2 .box #check{
+    width: 15px; 
+    height: 20px;
+    background: rgba(40,40,40,0.2);
+      margin-right: 5%;
+       float:right; 
+       margin-top: -23%;
+  }
+
+.par p{
+color: white;
+font-size: 20px;
+margin-top: -20em;
+visibility: visible;
+}
+#form3{
+    visibility: visible;
+}
+#form4{
+    visibility: hidden;
+    margin-top: -40em;
+    color:white;
+}
+#form4 label{
+    font-size: 24px;
+}
+
+/*check boxes */
+#choise1{
+   width:35%;
+   height:40px;
+   border:1px solid white;
+   background:rgba(255,255,255,.2);
+   line-height:40px;
+   color:white;
+   float:left;
+   text-align:center;
+   font-size: 26px;
+}
+.smallBox{
+   width:10%;
+   height:20px;
+   border:1px solid white;
+   float:left;
+   margin-top: .7em;
+   margin-left:-.1em;
+   font-size: 15px;
+   line-height:20px ;
+   background-color:rgb(187, 116, 116);
+}
+#choise2{
+    width:35%;
+    height:40px;
+    border:1px solid white;
+    background:rgba(255,255,255,.2);
+    line-height:40px;
+    color:white;
+    float:left;
+    text-align:center;
+    font-size: 26px;
+    margin-top:1.5em;
+    margin-left:-9.5em;
+ }
+ .smallBox2{
+    width:10%;
+    height:20px;
+    border:1px solid white;
+    float:left;
+    margin-top:.7em;
+    margin-left:-.1em;
+    font-size: 15px;
+    line-height:20px ;
+    background-color:rgb(187, 116, 116);
+ }
+ #choise3{
+    width:35%;
+    height:40px;
+    border:1px solid white;
+    background:rgba(255,255,255,.2);
+    line-height:40px;
+    color:white;
+    float:left;
+    text-align:center;
+    font-size: 26px;
+    margin-top:4em;
+    margin-left:-9.5em;
+ }
+ .btn-info{
+   margin-top:11em;
+   margin-left:-10em;
+   margin-bottom:1em;
+   background-color: rgb(226, 166, 184);
+   color:firebrick;
+   font-weight: bolder;
+   outline-color: transparent;
+   outline-width: 0px;
+   visibility: hidden;
+ }
+ .btn-info:hover{
+   
+    background-color: rgb(226, 166, 184);
+    color:firebrick;
+    font-weight: 1000;
+  }
+#catagorey{
+    background:transparent;
+    width:90%;
+    height:35px;
+    margin-left:-5em;
+    visibility:hidden;
+}
+
+#form4{
+    visibility: hidden;
+    margin-top: -40em;
+    color:white;
+}
+#form4 label{
+    font-size: 24px;
+}
+#choise4{
+    width:65%;
+    height:40px;
+    border:1px solid white;
+    background:rgba(255,255,255,.2);
+    line-height:40px;
+    color:white;
+    float:left;
+    text-align:start;
+    font-size: 26px;
+    margin-top:-13em;
+    margin-left:-9.5em;
+
+}
+.smallBox{
+    width:10%;
+    height:20px;
+    border:1px solid white;
+    float:left;
+    margin-top: .7em;
+    margin-left:-.1em;
+    font-size: 15px;
+    line-height:20px ;
+    background-color:rgb(187, 116, 116);
+ }
